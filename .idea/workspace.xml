@@ -12,16 +12,16 @@
     <file path="/pom.xml" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387658694511" ignored="false" />
     <file path="/SeleniumBase.java" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387726514514" ignored="false" />
     <file path="/fragment.java" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387727345495" ignored="false" />
-    <file path="/CnnHome.java" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387728650456" ignored="false" />
+    <file path="/CnnHome.java" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387734982725" ignored="false" />
     <file path="/CnnBase.java" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387649855676" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/compiler.xml" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387656763066" ignored="false" />
     <file path="/testng.xml" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387658923796" ignored="false" />
     <file path="$PROJECT_DIR$/../hybrid-framework/pom.xml" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387659955652" ignored="false" />
     <file path="$PROJECT_DIR$/../hybrid-framework/mail/pom.xml" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387659927811" ignored="false" />
     <file path="$PROJECT_DIR$/../hybrid-framework/gmail/pom.xml" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387659955652" ignored="false" />
-    <file path="/NavigationTabs.java" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387733763086" ignored="false" />
+    <file path="/NavigationTabs.java" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387734957548" ignored="false" />
     <file path="/LogIn.java" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387729008926" ignored="false" />
-    <file path="/Dummy.txt" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387733697476" ignored="false" />
+    <file path="/Dummy.txt" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387733774516" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CnnHome.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CnnHome.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cnn/src/test/java/CnnHome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
+            <state line="6" column="62" selection-start="192" selection-end="192" vertical-scroll-proportion="0.34517765">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,10 +152,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NavigationTabs.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NavigationTabs.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnn/src/main/java/qa/NavigationTabs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="37" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.79843444">
+            <state line="23" column="31" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,8 +188,8 @@
         <option value="$PROJECT_DIR$/generic/src/main/java/common/SeleniumBase.java" />
         <option value="$PROJECT_DIR$/cnn/src/main/java/qa/CnnUtility.java" />
         <option value="$PROJECT_DIR$/cnn/src/test/java/LogIn.java" />
-        <option value="$PROJECT_DIR$/cnn/src/test/java/CnnHome.java" />
         <option value="$PROJECT_DIR$/cnn/src/main/java/qa/NavigationTabs.java" />
+        <option value="$PROJECT_DIR$/cnn/src/test/java/CnnHome.java" />
       </list>
     </option>
   </component>
@@ -285,8 +285,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
-    <option name="width" value="1893" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -331,6 +332,86 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="project-object-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-object-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-object-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cnn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-object-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-object-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cnn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-object-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-object-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cnn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-object-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-object-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cnn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -574,11 +655,15 @@
       <created>1387733673384</created>
       <updated>1387733673384</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="intellij project commit..">
+      <created>1387733783073</created>
+      <updated>1387733783073</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="0" width="1893" height="1050" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -590,13 +675,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22146893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299435" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29152542" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19786666" sideWeight="0.6700565" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19322917" sideWeight="0.7457627" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18186666" sideWeight="0.6700565" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2542373" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17760417" sideWeight="0.7457627" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2542373" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -736,15 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cnn/src/test/java/CnnHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cnn/src/test/java/LogIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="24" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
@@ -779,8 +855,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cnn/src/main/java/qa/NavigationTabs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="37" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.79843444">
+        <state line="23" column="31" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/src/test/java/CnnHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="62" selection-start="192" selection-end="192" vertical-scroll-proportion="0.34517765">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

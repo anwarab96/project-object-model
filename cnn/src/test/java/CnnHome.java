@@ -8,5 +8,7 @@ public class CnnHome extends NavigationTabs {
     public void home(){
        goToPolitics();
        goToWorld();
+       goToEntertainment();
+       goToJustice();
        }
 }

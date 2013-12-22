@@ -26,8 +26,11 @@ public class NavigationTabs extends CnnBase{
         public void goToPolitics(){
             clickByCss(politics);
         }
-       public void goToJustice(){
+        public void goToJustice(){
         clickByCss(justice);
+        }
+        public void goToEntertainment(){
+        clickByCss(entertainment);
        }
 
 
