@@ -25,7 +25,6 @@
         <!--<parameter name="browser" value="safari"/>-->
         <classes>
          <class name="CnnHome"/>
-
         </classes>
     </test>
 
