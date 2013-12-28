@@ -1,6 +1,4 @@
 package common;
-
-
 //core java api
 import java.io.FileNotFoundException;
 import java.lang.reflect.Method;
