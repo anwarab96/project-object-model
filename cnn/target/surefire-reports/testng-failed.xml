@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Cnn UI Tests]" parallel="tests">
+  <parameter name="" value=""/>
+  <parameter name="os" value="VISTA"/>
+  <parameter name="useSauce" value="true"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="userName" value=""/>
+  <parameter name="URL" value=""/>
+  <parameter name="password" value=""/>
+  <test name="Cnn on Mac with firefox Tests(failed)" parallel="tests">
+    <parameter name="os" value="VISTA"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="CnnHome">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="home"/>
+        </methods>
+      </class> <!-- CnnHome -->
+    </classes>
+  </test> <!-- Cnn on Mac with firefox Tests(failed) -->
+</suite> <!-- Failed suite [Cnn UI Tests] -->
