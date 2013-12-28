@@ -11,4 +11,5 @@ public class CnnHome extends NavigationTabs {
        goToEntertainment();
        goToJustice();
        }
+
 }

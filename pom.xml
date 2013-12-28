@@ -46,13 +46,22 @@
                     <!--<module>generic</module>-->
                     <!--<module>cnn</module>-->
                 <!--</modules>-->
-                <!--<activitation>-->
-                    <!--<activeByDefault>true</activeByDefault>-->
-                <!--</activitation>-->
+                <!--&lt;!&ndash;<activitation>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<activeByDefault>true</activeByDefault>&ndash;&gt;-->
+                <!--&lt;!&ndash;</activitation>&ndash;&gt;-->
 
         <!--</profile>-->
     <!--</profiles>-->
 
+    <profiles>
+        <profile>
+        <id>cnn-news</id>
+            <modules>
+                <module>cnn</module>
+                <module>generic</module>
+            </modules>
+        </profile>
+    </profiles>
     <modules>
         <module>generic</module>
         <module>cnn</module>
@@ -61,10 +70,6 @@
     <dependencyManagement>
 
         <dependencies>
-            <!--<dependency>-->
-                <!--<groupId>project-object-model</groupId>-->
-                <!--<artifactId>generic</artifactId>-->
-            <!--</dependency>-->
             <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
