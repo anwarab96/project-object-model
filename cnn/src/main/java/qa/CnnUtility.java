@@ -24,6 +24,7 @@ public class CnnUtility {
             + "all foreign warplanes in the zone.A U.S. military official told CNN that at least one U.S. unarmed military aircraft and several Japanese military aircraft flew through the zone Friday without incident. The official said the U.S. flight was part of scheduled routine operations.";
 
     public String randomText(){
+
         String [] words = new String[11];
         words[0] = "politics";
         words[1] = "money";
