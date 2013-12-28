@@ -6,7 +6,7 @@
     <!--<parameter name="sauceKey" value="e45ab198-cbcb-4f8f-89b9-639b0894e0bf"/>-->
 
     <!-- If useSauce is false then all tests are on local-->
-    <parameter name="useSauce" value="true"/>
+    <parameter name="useSauce" value="false"/>
 
     <parameter name="URL" value=""/>
     <parameter name="userName" value=""/>
