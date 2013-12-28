@@ -10,6 +10,7 @@ public class CnnHome extends NavigationTabs {
        goToWorld();
        goToEntertainment();
        goToJustice();
+
        }
 
 }
