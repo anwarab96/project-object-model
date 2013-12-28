@@ -3,31 +3,28 @@ package common;
 
 //core java api
 import java.io.FileNotFoundException;
+import java.lang.reflect.Method;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 //selenium api
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.HasInputDevices;
 import org.openqa.selenium.interactions.Keyboard;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 //testng api
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.AfterClass;
-
+import org.testng.annotations.*;
 
 
 /**
@@ -40,7 +37,30 @@ import org.testng.annotations.AfterClass;
 public class SeleniumBase {
     public WebDriver driver = null;
     public String url = "http://www.cnn.com";
-    @BeforeClass
+
+    //using sauce labs
+
+    @Parameters({"sauceUserName", "key", "os", "browser", "browserVersion"})
+    @BeforeMethod
+    public void setUp(@Optional("rahmanww") String username,
+                      @Optional("e45ab198-cbcb-4f8f-89b9-639b0894e0bf") String key,
+                      @Optional("mac") String os,
+                      @Optional("firefox") String browser,
+                      @Optional("19.0") String browserVersion,
+                      Method method) throws Exception {
+
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setBrowserName(browser);
+        capabilities.setCapability("version", browserVersion);
+        capabilities.setCapability("platform", Platform.valueOf(os));
+        capabilities.setCapability("name", method.getName());
+        this.driver = new RemoteWebDriver(
+                new URL("http://" + username + ":" + key + "@ondemand.saucelabs.com:80/wd/hub"),
+                capabilities);
+        driver.navigate().to("http://www.cnn.com");
+        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+    }
+    //@BeforeClass
     public void beforeClass() throws FileNotFoundException {
         driver = new FirefoxDriver();
         //System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\config\\browser-driver\\chromedriver.exe");

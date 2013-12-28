@@ -11,6 +11,22 @@
     <packaging>pom</packaging>
     <name>project-object-model</name>
 
+    <profiles>
+        <profile>
+            <id>all</id>
+            <modules>
+                <module>cnn</module>
+                <module>generic</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>cnn-news</id>
+            <modules>
+                <module>cnn</module>
+                <module>generic</module>
+            </modules>
+        </profile>
+    </profiles>
     <build>
         <plugins>
             <plugin>
@@ -53,15 +69,15 @@
         <!--</profile>-->
     <!--</profiles>-->
 
-    <profiles>
-        <profile>
-        <id>cnn-news</id>
-            <modules>
-                <module>cnn</module>
-                <module>generic</module>
-            </modules>
-        </profile>
-    </profiles>
+    <!--<profiles>-->
+        <!--<profile>-->
+        <!--<id>cnn-news</id>-->
+            <!--<modules>-->
+                <!--<module>cnn</module>-->
+                <!--<module>generic</module>-->
+            <!--</modules>-->
+        <!--</profile>-->
+    <!--</profiles>-->
     <modules>
         <module>generic</module>
         <module>cnn</module>
