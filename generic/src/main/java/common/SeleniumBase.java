@@ -39,7 +39,7 @@ public class SeleniumBase {
     //using sauce labs
 
     @Parameters({"sauceUserName", "key", "os", "browser", "browserVersion"})
-    @BeforeMethod
+    //@BeforeMethod
     public void setUp(@Optional("rahmanww") String username,
                       @Optional("e45ab198-cbcb-4f8f-89b9-639b0894e0bf") String key,
                       @Optional("mac") String os,
@@ -58,7 +58,7 @@ public class SeleniumBase {
         driver.navigate().to("http://www.cnn.com");
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
     }
-    //@BeforeClass
+    @BeforeClass
     public void beforeClass() throws FileNotFoundException {
         driver = new FirefoxDriver();
         //System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\config\\browser-driver\\chromedriver.exe");
