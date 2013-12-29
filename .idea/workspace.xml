@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" name="Default" comment="selenium version 2.39.0 is updated">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generic/src/main/java/common/SeleniumBase.java" afterPath="$PROJECT_DIR$/generic/src/main/java/common/SeleniumBase.java" />
+    <list default="true" id="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" name="Default" comment="">
+      <change type="MOVED" beforePath="C:\Users\rrt\IdeaProjects\project-object-model\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_android_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_android_driver_2_38_0.xml" />
+      <change type="MOVED" beforePath="C:\Users\rrt\IdeaProjects\project-object-model\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_api_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_38_0.xml" />
+      <change type="MOVED" beforePath="C:\Users\rrt\IdeaProjects\project-object-model\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_38_0.xml" />
+      <change type="MOVED" beforePath="C:\Users\rrt\IdeaProjects\project-object-model\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_38_0.xml" />
+      <change type="MOVED" beforePath="C:\Users\rrt\IdeaProjects\project-object-model\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_38_0.xml" />
+      <change type="MOVED" beforePath="C:\Users\rrt\IdeaProjects\project-object-model\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_ie_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_38_0.xml" />
+      <change type="MOVED" beforePath="C:\Users\rrt\IdeaProjects\project-object-model\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_iphone_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_iphone_driver_2_38_0.xml" />
+      <change type="MOVED" beforePath="C:\Users\rrt\IdeaProjects\project-object-model\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_java_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_38_0.xml" />
+      <change type="MOVED" beforePath="C:\Users\rrt\IdeaProjects\project-object-model\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_remote_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_38_0.xml" />
+      <change type="MOVED" beforePath="C:\Users\rrt\IdeaProjects\project-object-model\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_safari_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_38_0.xml" />
+      <change type="MOVED" beforePath="C:\Users\rrt\IdeaProjects\project-object-model\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_server_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_2_38_0.xml" />
+      <change type="MOVED" beforePath="C:\Users\rrt\IdeaProjects\project-object-model\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_support_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_38_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cnn/cnn.iml" afterPath="$PROJECT_DIR$/cnn/cnn.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generic/generic.iml" afterPath="$PROJECT_DIR$/generic/generic.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project-object-model.iws" />
@@ -20,7 +34,7 @@
     <file path="$PROJECT_DIR$/../hybrid-framework/gmail/pom.xml" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387659955652" ignored="false" />
     <file path="/NavigationTabs.java" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387734957548" ignored="false" />
     <file path="/LogIn.java" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1387729008926" ignored="false" />
-    <file path="/Dummy.txt" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1388346655092" ignored="false" />
+    <file path="/Dummy.txt" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1388346687666" ignored="false" />
     <file path="/runner.xml" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1388245746971" ignored="false" />
     <file path="$PROJECT_DIR$/../cnn-framework/pom.xml" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1388343777690" ignored="false" />
     <file path="$PROJECT_DIR$/../cnn-framework/shared-api/pom.xml" changelist="d3ed449e-c4b0-465d-aa8f-976bc06b4a3b" time="1388339010651" ignored="false" />
@@ -96,10 +110,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="73" selection-start="758" selection-end="810" vertical-scroll-proportion="0.0">
+            <state line="98" column="54" selection-start="3251" selection-end="3251" vertical-scroll-proportion="0.4016227">
               <folding />
             </state>
           </provider>
@@ -114,10 +128,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CnnHome.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CnnHome.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnn/src/test/java/CnnHome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="20" selection-start="323" selection-end="323" vertical-scroll-proportion="0.7786561">
+            <state line="13" column="38" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -217,8 +231,8 @@
         <option value="$PROJECT_DIR$/cnn/src/test/resources/runner.xml" />
         <option value="$PROJECT_DIR$/cnn/pom.xml" />
         <option value="$PROJECT_DIR$/generic/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/generic/src/main/java/common/SeleniumBase.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -288,20 +302,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="cnn" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="cnn" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -894,7 +894,11 @@
       <created>1388262207033</created>
       <updated>1388262207033</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="selenium version 2.39.0 is updated">
+      <created>1388346699035</created>
+      <updated>1388346699035</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -912,9 +916,9 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29065743" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20266667" sideWeight="0.77740115" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20266667" sideWeight="0.66320646" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26826668" sideWeight="0.66320646" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1728" sideWeight="0.66320646" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33679354" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1065,13 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="73" selection-start="758" selection-end="810" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generic/src/main/java/common/SeleniumBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="102" column="0" selection-start="3770" selection-end="3770" vertical-scroll-proportion="0.0">
@@ -1104,7 +1101,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cnn/src/test/java/CnnHome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="20" selection-start="323" selection-end="323" vertical-scroll-proportion="0.7786561">
+        <state line="13" column="38" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="54" selection-start="3251" selection-end="3251" vertical-scroll-proportion="0.4016227">
           <folding />
         </state>
       </provider>
